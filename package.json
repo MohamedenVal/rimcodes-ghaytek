@@ -1,0 +1,47 @@
+{
+  "name": "ghaytak",
+  "version": "0.0.1",
+  "description": "Ghaytek app server app",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1189.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "express-jwt": "^6.1.0",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "mongoose-sequence": "^5.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0",
+    "socket.io": "^4.6.0",
+    "uuid": "^9.0.0",
+    "web-push": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedenVal/rimcodes-ghaytek.git"
+  },
+  "author": "Mohameden Vall Haden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedenVal/rimcodes-ghaytek/issues"
+  },
+  "homepage": "https://github.com/MohamedenVal/rimcodes-ghaytek#readme"
+}
